@@ -9,6 +9,10 @@ body {
 
 .Title{
   color: red;
-  text-align: center;
   font-size: 90px;
+}
+.creater{}
+ 
+.App{
+  text-align: center;
 }
