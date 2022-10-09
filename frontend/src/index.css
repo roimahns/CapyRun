@@ -8,11 +8,24 @@ body {
 }
 
 .Title{
-  color: red;
+  color: rgb(105, 81, 32);
+
   font-size: 90px;
 }
 .creater{}
  
+
 .App{
+  text-align: center;
+}
+.button{
+  color: rgb(255, 255, 255);
+  background-color:green;
+  font-size: 100px;
+  border-radius: 30px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  margin: 20px 20px 20px;
+  font-family: Arial;
+  bottom: 0;
   text-align: center;
 }
