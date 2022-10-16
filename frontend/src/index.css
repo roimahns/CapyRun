@@ -12,7 +12,9 @@ body {
 
   font-size: 90px;
 }
-.creater{}
+.creater{
+  
+}
  
 
 .App{
@@ -29,7 +31,10 @@ body {
   bottom: 0;
   text-align: center;
 }
-.pinetree{
+.pinetree2{
   
+}
+.backround{
+  background-color: skyblue;
 }
 
