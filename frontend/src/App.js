@@ -1,7 +1,8 @@
+import Board from "./Board";
 import pinetree from "./pinetree2.jpg";
 function App() {
   return (
-    <div className="App">
+    <div className="App backround" >
       <h1 className="Title">CapyRun!</h1>
       <i className="creater">Made By: Roi Mahns</i>
 
@@ -9,7 +10,8 @@ function App() {
       <br></br><br></br><br></br><br></br><br></br>
 
 
-      <button class="button">PLAY</button>
+      <Board />
+      <button className="button">PLAY</button>
       <div> <img src={pinetree} className="pinetree2" alt = "pinetree"></img>
       </div>
 
@@ -21,3 +23,4 @@ function App() {
 
 
 export default App;
+

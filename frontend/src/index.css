@@ -9,11 +9,11 @@ body {
 
 .Title{
   color: rgb(105, 81, 32);
-
+  margin-top: 0px;
   font-size: 90px;
 }
 .creater{
-  
+
 }
  
 
@@ -35,6 +35,6 @@ body {
   
 }
 .backround{
-  background-color: skyblue;
+  background-image: "backround.jpg";
 }
 
