@@ -11,7 +11,10 @@ body {
   background-position: 10%;
 }
 
-
+.creater{
+  text-align: center; 
+  background-position: 30px;
+}
 
 .Title{
   color: rgb(86, 65, 24);
@@ -37,9 +40,7 @@ body {
   bottom: 0;
   text-align: center;
 }
-.pinetree2{
-  
-}
+
 .backround{
   background-image: "backround.jpg";
 }
