@@ -56,10 +56,12 @@ export default function Board() {
             // second 3: y = 36, dy = 16, d2y = 2
 
             // cool down
-            flapTimer -= 1;
+            flapTimer -= 20;
 
             // Drawing stuff the bird
             ctx.beginPath();
+            var img = document.createElement("img");
+            img.src = "capybara.jpg";
             ctx.arc(bird.x, bird.y, 10, 0, Math.PI * 2);
             //ctx.fillStyle = "A67563";
             //ctx.fill();
@@ -213,6 +215,9 @@ export default function Board() {
     return (
         <canvas className="canvas" id="capyCanvas" width="700px" height="500px" />
     );
+
+
+
 }
 
 
