@@ -1,4 +1,5 @@
 import Board from "./Board";
+
 function App() {
   return (
     <div className="backround">
@@ -9,7 +10,7 @@ function App() {
       <br></br><br></br>
 
       <Board />
-      <button className="button">PLAY</button>
+      <buton className="butto"></buton>
     </div>
 
 
